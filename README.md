@@ -5,7 +5,7 @@ An automated, deterministic rule-based compliance engine written in Python that 
 ## Project Architectural Overview
 This system simulates an intelligent edge-computing municipal validation system designed to mitigate parking violations. By programmatically parsing intersecting real-world data points—including temporal constraints, permit status, multi-day intervals, and single-direction street vector orientations—the system minimizes user error through a logical evaluation matrix.
 
-### High-Impact R&D Architectural Patterns Featured:
+### Key Software Engineering Patterns Featured:
 * **Separation of Concerns (SoC):** Time parsing, operational constraints, and edge-case exceptions are extracted into modular, testable pure functions.
 * **Deterministic Logic Matrix:** Replaced flat, highly duplicated multi-nested loops with an immutable verification pipeline.
 * **Defensive Input Sanitization:** Safely tokenizes user parameters while lowering string case profiles to prevent type-mismatch vulnerabilities.
