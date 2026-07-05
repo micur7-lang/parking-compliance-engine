@@ -45,7 +45,7 @@ parking-compliance-engine/
 * **Asynchronous API Upgrades:** Interface with public transit GIS layers to fetch live geometric orientations based on coordinate lookups.
 * **Test Case Assertions:** Implement a robust standard Python `unittest` mock layer to programmatically feed boundary cases to the parser.
 
-## 🧪 Automated Testing
+## Automated Testing
 The engine includes an automated unit test suite utilizing Python's built-in `unittest` framework to guarantee logic matrix integrity.
 
 To execute the verification test suite, run:
