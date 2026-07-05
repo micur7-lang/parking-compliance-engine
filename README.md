@@ -20,7 +20,8 @@ This system simulates an intelligent edge-computing municipal validation system 
 parking-compliance-engine/
 │
 ├── src/
-│   └── main.py          <-- Main logic script
+│   ├── main.py          <-- Main logic script
+│   └── test_parking.py   <-- Automated test suite
 │
 ├── .gitignore           <-- Excludes compilation and system cache files
 └── README.md            <-- Professional system documentation
@@ -29,7 +30,7 @@ parking-compliance-engine/
 ## Installation and Execution
 1. Clone the clean code repository:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/micur7-lang/parking-compliance-engine.git
    ```
 2. Step inside the application scope:
    ```bash
@@ -37,9 +38,17 @@ parking-compliance-engine/
    ```
 3. Boot up the validation engine via CLI:
    ```bash
-   python src/main.py
+   python3 src/main.py
    ```
 
 ## Future Engineering Roadmap
 * **Asynchronous API Upgrades:** Interface with public transit GIS layers to fetch live geometric orientations based on coordinate lookups.
 * **Test Case Assertions:** Implement a robust standard Python `unittest` mock layer to programmatically feed boundary cases to the parser.
+
+## 🧪 Automated Testing
+The engine includes an automated unit test suite utilizing Python's built-in `unittest` framework to guarantee logic matrix integrity.
+
+To execute the verification test suite, run:
+```bash
+python3 -m unittest discover -s src
+```
