@@ -10,7 +10,7 @@ This system simulates an intelligent edge-computing municipal validation system 
 * **Deterministic Logic Matrix:** Replaced flat, highly duplicated multi-nested loops with an immutable verification pipeline.
 * **Defensive Input Sanitization:** Safely tokenizes user parameters while lowering string case profiles to prevent type-mismatch vulnerabilities.
 
-## 🛠️ Tech Stack & Technical Domain
+## Tech Stack & Technical Domain
 * **Language:** Python 3.10+
 * **Structural Paradigms:** Functional decomposition, dry principles, edge-case masking.
 * **Domains Addressed:** Rule-based expert systems, civic engineering simulation.
